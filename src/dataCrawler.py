@@ -18,18 +18,7 @@ driver.get(f"https://www.google.com/search?q={a}&tbm=isch")
 done = False
 elem = driver.find_element(By.TAG_NAME, "body")
 print("이미지 스캔 중...", end='')
-# for i in range(200):
-#     cnt += 1
-#     elem.send_keys(Keys.PAGE_DOWN)
-#     time.sleep(0.01)
-# try:
-#     driver.find_element(By.XPATH, '//*[@id="islmp"]/div/div/div/div[1]/div[2]/div[2]/input').click()
-# except:
-#     for i in range(50):
-#         cnt += 1
-#         elem.send_keys(Keys.PAGE_DOWN)
-#         time.sleep(0.01)
-#     driver.find_element(By.XPATH, '//*[@id="islmp"]/div/div/div/div[1]/div[2]/div[2]/input').click()
+
 links = []
 images = []
 cnt = 1
